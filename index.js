@@ -122,7 +122,7 @@ window.onload = function() {
       var chat_input = document.createElement('input')
       chat_input.setAttribute('id', 'chat_input')
       chat_input.setAttribute('maxlength', 1000)
-      chat_input.placeholder = `${localStorage.getItem('name')}. Say something...`
+      chat_input.placeholder = `${localStorage.getItem('name')}. Anything you say is public and will be saved.`
       chat_input.onkeyup  = function(){
         if(chat_input.value.length > 0){
           chat_input_send.removeAttribute('disabled')
