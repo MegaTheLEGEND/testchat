@@ -1,13 +1,13 @@
 window.onload = function() {
     // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
-  };
+  const firebaseConfig = {
+  apiKey: "AIzaSyCn-LiqYdIPhdjze92y_APDlXdnMt5eDNg",
+  authDomain: "chat-ec9a1.firebaseapp.com",
+  projectId: "chat-ec9a1",
+  storageBucket: "chat-ec9a1.appspot.com",
+  messagingSenderId: "67191516801",
+  appId: "1:67191516801:web:b17c4f5991fdc3bdd96780"
+};
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   var db = firebase.database()
